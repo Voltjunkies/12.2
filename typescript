@@ -306,4 +306,116 @@ Date:   Tue Sep 27 00:07:00 2022 +0300[m
 [m
     1st commint on 12.2 rep on master branch[m
 [K[?1l>[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
-[?20
+[?2004lOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31msomefile3[m
+	[31msomefile4[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status[3Plogcommit -am "3rd commit on 12.2 rep on master branch"[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [24Ptouch somefile4
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit commit -am "3rd commit on 12.2 rep on master branch"[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [24Ptouch somefile4
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit add .man git commit -am[11Pgit logcommit -m "2nd commint on 12.2 rep on master branch"[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch somefile2[6Pgit add .
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git add .status[3Plogcommit -am "3rd commit on 12.2 rep on master branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C commit on 12.2 rep on[1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C commit on 12.2 rep on [1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C commit on 12.2 rep on m[1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C4 commit on 12.2 rep on [1@m[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct commit on 12.2 rep on[1@ [A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch commit on 12.2 rep o[1@n[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Clog[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -am "4th commit on 12.2 rep on master branch"
+[?2004l[master 2d60e42] 4th commit on 12.2 rep on master branch
+ 3 files changed, 28 insertions(+), 1 deletion(-)
+ create mode 100644 somefile3
+ create mode 100644 somefile4
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
+[?2004lOn branch master
+nothing to commit, working tree clean
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git log
+[?2004l[?1h=[33mcommit 2d60e4254730ab95740ee20b3e8d7ab5b50e3405[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:11:03 2022 +0300[m
+[m
+    4th commit on 12.2 rep on master branch[m
+[m
+[33mcommit e56ea6a4bbcfc8a5c3d26fda94f365eb9b6a1ba8[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:09:55 2022 +0300[m
+[m
+    3rd commit on 12.2 rep on master branch[m
+[m
+[33mcommit 27c276d5be9629c9b6a32014f5c5ea76cf8d325d[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:07:33 2022 +0300[m
+[m
+    2nd commint on 12.2 rep on master branch[m
+[m
+[33mcommit 3f8a5a654b62807b123360e059a7deeb94073b5d[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:07:00 2022 +0300[m
+[m
+    1st commint on 12.2 rep on master branch[m
+:[K[K[K[7m(END)[27m[K[K[?1l>[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ gti s[K[K[K[Kit status
+[?2004lOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.idea/[m
+	[31mmain.py[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git add main.py
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git add main.py[5Pstatus
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   main.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.idea/[m
+
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ mgit status[K[K[K[K[K[K[K[K[K[Kgit stati[Kus
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   main.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.gitignore[m
+	[31m.idea/[m
+
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git add .gitignore
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   main.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.idea/[m
+
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ ls -a
+[?2004l[0m[01;34m.[0m   [01;34m.git[0m        [01;34m.idea[0m    somefile1
