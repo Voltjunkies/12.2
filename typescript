@@ -418,4 +418,289 @@ Untracked files:
 	[31m.idea/[m
 
 [?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ ls -a
-[?2004l[0m[01;34m.[0m   [01;34m.git[0m        [01;34m.idea[0m    somefile1
+[?2004l[0m[01;34m.[0m   [01;34m.git[0m        [01;34m.idea[0m    somefile1  somefile3  typescript
+[01;34m..[0m  .gitignore  main.py  somefile2  somefile4  [01;34mvenv[0m
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   .gitignore[m
+	[32mnew file:   main.py[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   .gitignore[m
+	[31mmodified:   typescript[m
+
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git add .
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git commin[Kt[1Padd .status[5Pls -agit statusadd .gitignore[8Pstatusadd main.py[5Pstatus[3Plogstatuscommit -am "4th commit on 12.2 rep on master branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cth commit on 12.2 rep on[1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C5th commit on 12.2 rep o[1@n[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccommit -am "5th commit on 12.2 rep on master branch" "w"/" "p"d"a"t"e"[1P"[1P"[1P"[1P"[1P"u"p"d" "g"i"t"i"g"n"o"r"e" "n"'" "c"r"e"a"t"e"d" "m"a"i"a"n"[1P"[1P"[1P"i"n","p"y"[1P"[1P"[1P"."p"y"
+[?2004l[master 5ff909d] 5th commit on 12.2 rep on master branch w/ upd gitignore n' created main.py
+ 3 files changed, 116 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 main.py
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git log
+[?2004l[?1h=[33mcommit 5ff909d2f14a950344e0dffe612f3635fbf77be6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:23:02 2022 +0300[m
+[m
+    5th commit on 12.2 rep on master branch w/ upd gitignore n' created main.py[m
+[m
+[33mcommit 2d60e4254730ab95740ee20b3e8d7ab5b50e3405[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:11:03 2022 +0300[m
+[m
+    4th commit on 12.2 rep on master branch[m
+[m
+[33mcommit e56ea6a4bbcfc8a5c3d26fda94f365eb9b6a1ba8[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:09:55 2022 +0300[m
+[m
+    3rd commit on 12.2 rep on master branch[m
+[m
+[33mcommit 27c276d5be9629c9b6a32014f5c5ea76cf8d325d[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:07:33 2022 +0300[m
+[m
+    2nd commint on 12.2 rep on master branch[m
+:[K[K[?1l>[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
+[?2004lOn branch master
+nothing to commit, working tree clean
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git branch
+[?2004l[?1h=* [32mmaster[m[m
+[K[?1l>[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ man git
+[?2004l[?1049h[22;0;0t[?1h=GIT(1)                            Git Manual                            GIT(1)[m
+[m
+[1mNAME[0m[m
+       git - the stupid content tracker[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [--version] [--help] [-C <path>] [-c <name>=<value>][m
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path][m
+           [-p|--paginate|-P|--no-pager] [--no-replace-objects] [--bare][m
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>][m
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>][m
+           <command> [<args>][m
+[m
+[1mDESCRIPTION[0m[m
+       Git is a fast, scalable, distributed revision control system with an[m
+       unusually rich command set that provides both high-level operations and[m
+       full access to internals.[m
+[m
+       See [1mgittutorial[0m(7) to get started, then see [1mgiteveryday[0m(7) for a useful[m
+       minimum set of commands. The [1mGit[0m [1mUser’s[0m [1mManual[0m[1] has a more in-depth[m
+       introduction.[m
+[m
+       After you mastered the basic concepts, you can come back to this page[m
+[7m Manual page git(1) line 1 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       to learn what commands Git offers. You can learn more about individual[m
+[7m Manual page git(1) line 2 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       Git commands with "git help command". [1mgitcli[0m(7) manual page gives you[m
+[7m Manual page git(1) line 3 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       an overview of the command-line command syntax.[m
+[7m Manual page git(1) line 4 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 5 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       A formatted and hyperlinked copy of the latest Git documentation can be[m
+[7m Manual page git(1) line 6 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       viewed at [1mhttps://git.github.io/htmldocs/git.html[0m or[m
+[7m Manual page git(1) line 7 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       [1mhttps://git-scm.com/docs[0m.[m
+[7m Manual page git(1) line 8 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 9 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[1mOPTIONS[0m[m
+[7m Manual page git(1) line 10 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --version[m
+[7m Manual page git(1) line 11 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Prints the Git suite version that the [4mgit[24m program came from.[m
+[7m Manual page git(1) line 12 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 13 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option is internally converted to [1mgit[0m [1mversion[0m [1m...[0m  and accepts[m
+[7m Manual page git(1) line 14 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the same options as the [1mgit-version[0m(1) command. If [1m--help[0m is also[m
+[7m Manual page git(1) line 15 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           given, it takes precedence over [1m--version[0m.[m
+[7m Manual page git(1) line 16 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 17 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --help[m
+[7m Manual page git(1) line 18 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Prints the synopsis and a list of the most commonly used commands.[m
+[7m Manual page git(1) line 19 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If the option [1m--all[0m or [1m-a[0m is given then all available commands are[m
+[7m Manual page git(1) line 20 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           printed. If a Git command is named this option will bring up the[m
+[7m Manual page git(1) line 21 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           manual page for that command.[m
+[7m Manual page git(1) line 22 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 23 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Other options are available to control how the manual page is[m
+[7m Manual page git(1) line 24 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           displayed. See [1mgit-help[0m(1) for more information, because [1mgit[0m [1m--help[0m[m
+[7m Manual page git(1) line 25 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m...[0m  is converted internally into [1mgit[0m [1mhelp[0m [1m...[0m.[m
+[7m Manual page git(1) line 26 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 27 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -C <path>[m
+[7m Manual page git(1) line 28 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Run as if git was started in [4m<path>[24m instead of the current working[m
+[7m Manual page git(1) line 29 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           directory. When multiple [1m-C[0m options are given, each subsequent[m
+[7m Manual page git(1) line 30 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           non-absolute [1m-C[0m [1m<path>[0m is interpreted relative to the preceding [1m-C[0m[m
+[7m Manual page git(1) line 31 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m<path>[0m. If [4m<path>[24m is present but empty, e.g.  [1m-C[0m [1m""[0m, then the[m
+[7m Manual page git(1) line 32 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           current working directory is left unchanged.[m
+[7m Manual page git(1) line 33 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 34 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This option affects options that expect path name like [1m--git-dir[0m[m
+[7m Manual page git(1) line 35 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and [1m--work-tree[0m in that their interpretations of the path names[m
+[7m Manual page git(1) line 36 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           would be made relative to the working directory caused by the [1m-C[0m[m
+[7m Manual page git(1) line 37 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           option. For example the following invocations are equivalent:[m
+[7m Manual page git(1) line 38 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 39 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               git --git-dir=a.git --work-tree=b -C c status[m
+[7m Manual page git(1) line 40 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K               git --git-dir=c/a.git --work-tree=c/b status[m
+[7m Manual page git(1) line 41 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 42 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -c <name>=<value>[m
+[7m Manual page git(1) line 43 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Pass a configuration parameter to the command. The value given will[m
+[7m Manual page git(1) line 44 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           override values from configuration files. The <name> is expected in[m
+[7m Manual page git(1) line 45 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the same format as listed by [4mgit[24m [4mconfig[24m (subkeys separated by[m
+[7m Manual page git(1) line 46 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           dots).[m
+[7m Manual page git(1) line 47 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 48 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that omitting the [1m=[0m in [1mgit[0m [1m-c[0m [1mfoo.bar[0m [1m...[0m  is allowed and sets[m
+[7m Manual page git(1) line 49 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mfoo.bar[0m to the boolean true value (just like [1m[foo]bar[0m would in a[m
+[7m Manual page git(1) line 50 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           config file). Including the equals but with an empty value (like[m
+[7m Manual page git(1) line 51 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mgit[0m [1m-c[0m [1mfoo.bar=[0m [1m...[0m) sets [1mfoo.bar[0m to the empty string which [1mgit[0m[m
+[7m Manual page git(1) line 52 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mconfig[0m [1m--type=bool[0m will convert to [1mfalse[0m.[m
+[7m Manual page git(1) line 53 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 54 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --config-env=<name>=<envvar>[m
+[7m Manual page git(1) line 55 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Like [1m-c[0m [1m<name>=<value>[0m, give configuration variable [4m<name>[24m a value,[m
+[7m Manual page git(1) line 56 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           where <envvar> is the name of an environment variable from which to[m
+[7m Manual page git(1) line 57 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           retrieve the value. Unlike [1m-c[0m there is no shortcut for directly[m
+[7m Manual page git(1) line 58 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           setting the value to an empty string, instead the environment[m
+[7m Manual page git(1) line 59 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable itself must be set to the empty string. It is an error if[m
+[7m Manual page git(1) line 60 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the [1m<envvar>[0m does not exist in the environment.  [1m<envvar>[0m may not[m
+[7m Manual page git(1) line 61 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           contain an equals sign to avoid ambiguity with [1m<name>[0m containing[m
+[7m Manual page git(1) line 62 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           one.[m
+[7m Manual page git(1) line 63 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 64 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This is useful for cases where you want to pass transitory[m
+[7m Manual page git(1) line 65 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           configuration options to git, but are doing so on OS’s where other[m
+[7m Manual page git(1) line 66 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           processes might be able to read your cmdline (e.g.[m
+[7m Manual page git(1) line 67 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m/proc/self/cmdline[0m), but not your environ (e.g.[m
+[7m Manual page git(1) line 68 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1m/proc/self/environ[0m). That behavior is the default on Linux, but may[m
+[7m Manual page git(1) line 69 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           not be on your system.[m
+[7m Manual page git(1) line 70 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 71 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Note that this might add security for variables such as[m
+[7m Manual page git(1) line 72 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mhttp.extraHeader[0m where the sensitive information is part of the[m
+[7m Manual page git(1) line 73 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           value, but not e.g.  [1murl.<base>.insteadOf[0m where the sensitive[m
+[7m Manual page git(1) line 74 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           information can be part of the key.[m
+[7m Manual page git(1) line 75 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 76 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --exec-path[=<path>][m
+[7m Manual page git(1) line 77 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Path to wherever your core Git programs are installed. This can[m
+[7m Manual page git(1) line 78 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           also be controlled by setting the GIT_EXEC_PATH environment[m
+[7m Manual page git(1) line 79 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           variable. If no path is given, [4mgit[24m will print the current setting[m
+[7m Manual page git(1) line 80 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           and then exit.[m
+[7m Manual page git(1) line 81 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 82 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --html-path[m
+[7m Manual page git(1) line 83 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Print the path, without trailing slash, where Git’s HTML[m
+[7m Manual page git(1) line 84 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           documentation is installed and exit.[m
+[7m Manual page git(1) line 85 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 86 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --man-path[m
+[7m Manual page git(1) line 87 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Print the manpath (see [1mman(1)[0m) for the man pages for this version[m
+[7m Manual page git(1) line 88 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           of Git and exit.[m
+[7m Manual page git(1) line 89 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 90 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --info-path[m
+[7m Manual page git(1) line 91 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Print the path where the Info files documenting this version of Git[m
+[7m Manual page git(1) line 92 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           are installed and exit.[m
+[7m Manual page git(1) line 93 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 94 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -p, --paginate[m
+[7m Manual page git(1) line 95 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Pipe all output into [4mless[24m (or if set, $PAGER) if standard output is[m
+[7m Manual page git(1) line 96 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           a terminal. This overrides the [1mpager.<cmd>[0m configuration options[m
+[7m Manual page git(1) line 97 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           (see the "Configuration Mechanism" section below).[m
+[7m Manual page git(1) line 98 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 99 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       -P, --no-pager[m
+[7m Manual page git(1) line 100 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Do not pipe Git output into a pager.[m
+[7m Manual page git(1) line 101 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 102 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --git-dir=<path>[m
+[7m Manual page git(1) line 103 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the path to the repository (".git" directory). This can also be[m
+[7m Manual page git(1) line 104 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           controlled by setting the [1mGIT_DIR[0m environment variable. It can be[m
+[7m Manual page git(1) line 105 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           an absolute path or relative path to current working directory.[m
+[7m Manual page git(1) line 106 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 107 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Specifying the location of the ".git" directory using this option[m
+[7m Manual page git(1) line 108 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           (or [1mGIT_DIR[0m environment variable) turns off the repository[m
+[7m Manual page git(1) line 109 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           discovery that tries to find a directory with ".git" subdirectory[m
+[7m Manual page git(1) line 110 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           (which is how the repository and the top-level of the working tree[m
+[7m Manual page git(1) line 111 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           are discovered), and tells Git that you are at the top level of the[m
+[7m Manual page git(1) line 112 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           working tree. If you are not at the top-level directory of the[m
+[7m Manual page git(1) line 113 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           working tree, you should tell Git where the top-level of the[m
+[7m Manual page git(1) line 114 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           working tree is, with the [1m--work-tree=<path>[0m option (or[m
+[7m Manual page git(1) line 115 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mGIT_WORK_TREE[0m environment variable)[m
+[7m Manual page git(1) line 116 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 117 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           If you just want to run git as if it was started in [1m<path>[0m then use[m
+[7m Manual page git(1) line 118 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mgit[0m [1m-C[0m [1m<path>[0m.[m
+[7m Manual page git(1) line 119 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 120 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --work-tree=<path>[m
+[7m Manual page git(1) line 121 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the path to the working tree. It can be an absolute path or a[m
+[7m Manual page git(1) line 122 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           path relative to the current working directory. This can also be[m
+[7m Manual page git(1) line 123 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           controlled by setting the GIT_WORK_TREE environment variable and[m
+[7m Manual page git(1) line 124 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           the core.worktree configuration variable (see core.worktree in [1mgit-[0m[m
+[7m Manual page git(1) line 125 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mconfig[0m(1) for a more detailed discussion).[m
+[7m Manual page git(1) line 126 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 127 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --namespace=<path>[m
+[7m Manual page git(1) line 128 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Set the Git namespace. See [1mgitnamespaces[0m(7) for more details.[m
+[7m Manual page git(1) line 129 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Equivalent to setting the [1mGIT_NAMESPACE[0m environment variable.[m
+[7m Manual page git(1) line 130 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 131 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --super-prefix=<path>[m
+[7m Manual page git(1) line 132 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Currently for internal use only. Set a prefix which gives a path[m
+[7m Manual page git(1) line 133 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           from above a repository down to its root. One use is to give[m
+[7m Manual page git(1) line 134 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           submodules context about the superproject that invoked it.[m
+[7m Manual page git(1) line 135 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 136 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --bare[m
+[7m Manual page git(1) line 137 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Treat the repository as a bare repository. If GIT_DIR environment[m
+[7m Manual page git(1) line 138 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           is not set, it is set to the current working directory.[m
+[7m Manual page git(1) line 139 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 140 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --no-replace-objects[m
+[7m Manual page git(1) line 141 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Do not use replacement refs to replace Git objects. See [1mgit-[0m[m
+[7m Manual page git(1) line 142 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mreplace[0m(1) for more information.[m
+[7m Manual page git(1) line 143 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K[m
+[7m Manual page git(1) line 144 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K       --literal-pathspecs[m
+[7m Manual page git(1) line 145 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           Treat pathspecs literally (i.e. no globbing, no pathspec magic).[m
+[7m Manual page git(1) line 146 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           This is equivalent to setting the [1mGIT_LITERAL_PATHSPECS[0m environment[m
+[7m Manual page git(1) line 147 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git
+[?2004lusage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git bta[K[Kranch 2nd
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git branch
+[?2004l[?1h=  2nd[m[m
+* [32mmaster[m[m
+[K[?1l>[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git chr[Keckout 2n
+[?2004lerror: pathspec '2n' did not match any file(s) known to git
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git checkout 2nd
+[?2004lM	typescript
+Switched to branch '2nd'
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
+[?2004lOn branch 2nd
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ touch myfile1
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ touchmyfile2 my
