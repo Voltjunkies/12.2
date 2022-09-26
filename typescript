@@ -279,4 +279,31 @@ Date:   Tue Sep 27 00:07:00 2022 +0300[m
 [7m Manual page git-commit(1) line 193 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           interface scripts. It allows you to create a commit with an empty[m
 [7m Manual page git-commit(1) line 194 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           commit message without using plumbing commands like [1mgit-commit-[0m[m
 [7m Manual page git-commit(1) line 195 (press h for help or q to quit)[27m[K[K [KESCESC[KOO[KBB[K           [1mtree[0m(1).[m
-[7m Manual page git-commit(1) line 
+[7m Manual page git-commit(1) line 196 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0tNo manual entry for -am
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ toy[Kuch man git commit -am[11Pgit logcommit -m "2nd commint on 12.2 rep on master branch"[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[Cadd .[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctouch somefile2[K3
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ touch somefile3[K4
+[?2004l[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git commit -am :[K"[1Ptouch somefile43man git commit -am[11Pgit logcommit -m "2nd commint on 12.2 rep on master branch"[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct on 12.2 rep on[1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C commit on 12.2 rep on [1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C commit on 12.2 rep on m[1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C commit on 12.2 rep on ma[1P[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3 commit on 12.2 rep on m[1@a[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr commit on 12.2 rep on [1@m[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd commit on 12.2 rep on[1@ [A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cam "3rd commit on 12.2 rep o[1@n[A]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ [C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004l[master e56ea6a] 3rd commit on 12.2 rep on master branch
+ 1 file changed, 282 insertions(+)
+[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git log
+[?2004l[?1h=[33mcommit e56ea6a4bbcfc8a5c3d26fda94f365eb9b6a1ba8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:09:55 2022 +0300[m
+[m
+    3rd commit on 12.2 rep on master branch[m
+[m
+[33mcommit 27c276d5be9629c9b6a32014f5c5ea76cf8d325d[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:07:33 2022 +0300[m
+[m
+    2nd commint on 12.2 rep on master branch[m
+[m
+[33mcommit 3f8a5a654b62807b123360e059a7deeb94073b5d[m[m
+Author: Ruslan Ishmaev <ruslanishmaev03@gmail.com>[m
+Date:   Tue Sep 27 00:07:00 2022 +0300[m
+[m
+    1st commint on 12.2 rep on master branch[m
+[K[?1l>[?2004h]0;voltjunkie@voltjunkie-pc: ~/Desktop/12.2[01;32mvoltjunkie@voltjunkie-pc[00m:[01;34m~/Desktop/12.2[00m$ git status
+[?20
